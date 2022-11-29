@@ -83,7 +83,13 @@ ___
 ```
 nano /var/www/projectLEMP/todo_list.php
 ```
+___
+### Todo_list content succesfully inserted in mysql test table: this output is displayed on the browser
+<img width="960" alt="Screenshot_20221129_115325" src="https://user-images.githubusercontent.com/57721371/204570298-f26adf85-f618-4e6f-ad92-b0f99e342c55.png">
 
+```
+http://3.86.250.109/todo_list.php
+```
 
 
 
