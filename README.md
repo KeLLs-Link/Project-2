@@ -10,19 +10,25 @@ ___
 ### Updating Nginx Package Manager and Installing the Nginx Webserver
 ![Screenshot (244)](https://user-images.githubusercontent.com/57721371/204528909-708d38b0-fc08-4337-9516-1fb63bc3e428.png)
 <img width="477" alt="Screenshot 2022-11-29 150230" src="https://user-images.githubusercontent.com/57721371/204549447-f01bf537-654e-4f28-973c-497b84f6f91e.png">
-
-
 ```
 sudo apt update
 sudo apt install nginx
+curl http://3.86.250.109:80
 ```
 ___
 ### Mysql Databae Management System sucessfully installed and integrated to work with the php environment
+<img width="452" alt="Screenshot 2022-11-29 150609" src="https://user-images.githubusercontent.com/57721371/204550343-c1993f4e-c472-49bf-826c-0bc8c8631e8f.png">
 
-
-
-
-
+```
+sudo apt install mysql-server
+sudo mysql
+```
+___
+###  Installing PHP: php-fpm and php-mysql (a PHP module that allows PHP to communicate with MySQL-based databases) are both installed at once.
+![Screenshot (250)](https://user-images.githubusercontent.com/57721371/204553274-477dced9-6b51-4e25-aa56-f59aa3f49ad2.png)
+```
+sudo apt install php-fpm php-mysql
+```
 
 
 
