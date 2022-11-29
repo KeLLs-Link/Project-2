@@ -76,7 +76,13 @@ ___
 ```
 mysql> SELECT * FROM example_database.todo_list;
 ```
+___
+### Creating a PHP script that will connect to MySQL and query for content in the database.
+<img width="732" alt="Screenshot 2022-11-29 162057" src="https://user-images.githubusercontent.com/57721371/204569350-ac5ece3b-fd4b-4cb6-941b-937cbc85cc7e.png">
 
+```
+nano /var/www/projectLEMP/todo_list.php
+```
 
 
 
