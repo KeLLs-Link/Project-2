@@ -25,9 +25,18 @@ sudo mysql
 ```
 ___
 ###  Installing PHP: php-fpm and php-mysql (a PHP module that allows PHP to communicate with MySQL-based databases) are both installed at once.
+like Apache, Nginx can be configured to host more than one domain on a single server (these are known as server blocks).
 ![Screenshot (250)](https://user-images.githubusercontent.com/57721371/204553274-477dced9-6b51-4e25-aa56-f59aa3f49ad2.png)
 ```
 sudo apt install php-fpm php-mysql
+```
+___
+### Configuring Nginx to use Php Processor
+Configuration file tested to uncover syntax error; no errors found after concluding test
+
+<img width="386" alt="Screenshot 2022-11-29 045025" src="https://user-images.githubusercontent.com/57721371/204557589-222fcb16-bf41-4281-ab2e-0dabf58077cf.png">
+```
+sudo nginx -t
 ```
 
 
