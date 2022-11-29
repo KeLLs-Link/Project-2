@@ -35,11 +35,16 @@ ___
 Configuration file tested to uncover syntax error; no errors found after concluding test
 
 <img width="386" alt="Screenshot 2022-11-29 045025" src="https://user-images.githubusercontent.com/57721371/204557589-222fcb16-bf41-4281-ab2e-0dabf58077cf.png">
+
 ```
 sudo nginx -t
 ```
+___
+### Nginx site is up and working as expected; accessed via Public IP Adress
+<img width="960" alt="Screenshot 2022-11-29 045606" src="https://user-images.githubusercontent.com/57721371/204559718-c97c9ab7-46ba-48a4-8e03-701edab1c59d.png">
 
-
-
+```
+Public IP: http://3.86.250.109:80
+```
 
 
