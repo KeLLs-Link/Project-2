@@ -46,5 +46,18 @@ ___
 ```
 Public IP: http://3.86.250.109:80
 ```
+___
+### Creating a PHP script to test and ensure that Nginx is able to handle .php files within the newly configured website.
+<img width="730" alt="Screenshot 2022-11-29 155043" src="https://user-images.githubusercontent.com/57721371/204561523-b5d2b054-103a-46ba-a63f-edc3c19deedd.png">
+
+```
+sudo nano /var/www/projectLEMP/info.php
+```
+
+
+
+
+
+
 
 
