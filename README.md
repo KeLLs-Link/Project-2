@@ -53,11 +53,15 @@ ___
 ```
 sudo nano /var/www/projectLEMP/info.php
 ```
+___
+### A new database and user is created. The new user is assisgned full privileges to the database
+<img width="643" alt="Screenshot_20221129_092117" src="https://user-images.githubusercontent.com/57721371/204563210-dd3bdcb2-544c-4a9f-813a-842388e2ac55.png">
 
-
-
-
-
+```
+  CREATE DATABASE `example_database`;
+	CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+	GRANT ALL ON example_database.* TO 'example_user'@'%';
+```
 
 
 
