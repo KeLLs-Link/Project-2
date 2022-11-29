@@ -62,6 +62,18 @@ ___
 	CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
 	GRANT ALL ON example_database.* TO 'example_user'@'%';
 ```
+___
+### New user granted acces and proper permissions using "password" to gain acess into the mysql database
+<img width="457" alt="Screenshot 2022-11-29 160304" src="https://user-images.githubusercontent.com/57721371/204564984-08665ab9-515d-4a6a-ba18-7b8344c50432.png">
+
+```
+mysql -u example_user -p
+```
+
+
+
+
+
 
 
 
