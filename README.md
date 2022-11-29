@@ -69,7 +69,13 @@ ___
 ```
 mysql -u example_user -p
 ```
+___
+### Data succefully saved in the database table
+<img width="641" alt="Screenshot_20221129_114604" src="https://user-images.githubusercontent.com/57721371/204567738-c625a287-1015-45db-bada-d06604150ff2.png">
 
+```
+mysql> SELECT * FROM example_database.todo_list;
+```
 
 
 
